@@ -33,12 +33,12 @@ Target column: **`Churn`** (Yes/No)
 
 pip install -r requirements.txt
 
-##Run the scripts or notebooks:
+## Run the scripts or notebooks:
 
     python src/preprocess.py
     python src/model.py
 
-##Results
+## Results
 
     Model Performance:
         Precision: 83%
@@ -46,12 +46,12 @@ pip install -r requirements.txt
         F1-Score: 62%
     Visualizations: Link to plots
 
-##Technologies
+## Technologies
 
     Python: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
     Tools: Jupyter Notebook, Git
 
-##Future Work
+## Future Work
 
     Deploy model using Flask/Streamlit.
     Incorporate advanced models like XGBoost or Neural Networks.
