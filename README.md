@@ -28,3 +28,31 @@ Target column: **`Churn`** (Yes/No)
    ```bash
    git clone https://github.com/KhanAbdulMajid/Telecom-Churn-Rate.git
    cd Telecom-Churn-Rate
+
+## Install dependencies:
+
+pip install -r requirements.txt
+
+##Run the scripts or notebooks:
+
+    python src/preprocess.py
+    python src/model.py
+
+##Results
+
+    Model Performance:
+        Precision: 83%
+        Recall: 51%
+        F1-Score: 62%
+    Visualizations: Link to plots
+
+##Technologies
+
+    Python: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+    Tools: Jupyter Notebook, Git
+
+##Future Work
+
+    Deploy model using Flask/Streamlit.
+    Incorporate advanced models like XGBoost or Neural Networks.
+
